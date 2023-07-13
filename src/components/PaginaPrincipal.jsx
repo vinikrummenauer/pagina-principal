@@ -52,6 +52,7 @@ const PaginaPrincipal = () => {
     <div className="content2 w-50">
       <h2>ESTACIONE POR WHATS</h2>
       <p>Estacione utilizando o whatsapp, clique no botão abaixo e confira.</p>
+      <a href="https://api.whatsapp.com/send?phone=5186604241&text=Ol%C3%A1!">
       <Button
         variant="gradient"
         size="md"
@@ -60,6 +61,7 @@ const PaginaPrincipal = () => {
       >
         Acessar o chat
       </Button>
+        </a>
     </div>
   </div>
 </div>
