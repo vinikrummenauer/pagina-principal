@@ -26,26 +26,26 @@ const PaginaPrincipal = () => {
       </a>
     </div>
   </div>
-  <div className="div2 text-black">
+  <div className="div2 text-white">
     <div className="content">
       <h2>ESTACIONE RÁPIDO</h2>
       <p>Realize um estacionamento de forma simples e rápida.</p>
-      <a href="https://avulso.conseprotaquara.com.br/">
+      <a href="https://avulso.conseprotaquara.com.br">
       <Button
         variant="gradient"
         size="md"
-        gradient={{ from: 'indigo', to: 'violet', deg: 60 }}
+        gradient={{from: 'indigo', to: 'violet', deg: 60}}
         rightIcon={<IconArrowBearRight />}
       >
         Ir para o site
       </Button>
-        </a>
+      </a>
     </div>
     <div className="image-container2">
       <img src="../../assets/img/carroconsepro.png" alt="Exemplo de imagem" />
     </div>
   </div>
-  <div className="div1 div3 text-black">
+  <div className="div1 div3 text-white">
     <div className="image-container3">
       <img src="../../assets/img/whatsconsepro5.png" alt="Exemplo de imagem" />
     </div>
